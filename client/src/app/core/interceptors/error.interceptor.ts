@@ -7,7 +7,7 @@ import {
 import { Observable, throwError } from 'rxjs';
 import { Router, NavigationExtras } from '@angular/router';
 import { Injectable } from '@angular/core';
-import { catchError } from 'rxjs/Operators';
+import { catchError, delay } from 'rxjs/Operators';
 import { ToastrService } from 'ngx-toastr';
 
 @Injectable()
